@@ -99,9 +99,6 @@ $(function() {
             $(".author-info")
               .velocity("stop")
               .velocity("transition.slideLeftIn", { duration: 500 })
-              .style({
-                display: "block !important"
-              });
           }
         });
     }

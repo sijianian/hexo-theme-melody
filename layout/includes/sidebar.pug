@@ -12,7 +12,7 @@
         span.progress-percentage %
         div.sidebar-toc__progress-bar
       div.sidebar-toc__content!=toc(page.content)
-  .author-info(class= showToc ? 'hide' : undefined)
+  .author-info(class= showToc ? 'sidebar-hide' : undefined)
     .author-info__avatar.text-center
       img(src=theme.avatar || url_for('/img/avatar.png'))
     .author-info__name.text-center= config.author
