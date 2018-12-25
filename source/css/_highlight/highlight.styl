@@ -19,8 +19,7 @@ loopForLanguages()
 $code-block
   overflow: auto
   margin: 1rem 0
-  padding: 0
-  padding-top: 1.4rem
+  padding: 1.5rem 0 0 0;
   background: $highlight-background
   color: $highlight-foreground
   font-size: $code-font-size
@@ -49,6 +48,7 @@ blockquote
 
   pre
     @extend $code-block
+    padding: 0.5rem;
 
     code
       padding: 0
@@ -120,8 +120,6 @@ blockquote
           border-bottom-color: $highlight-foreground
 
     .gutter pre
-      padding-right: 0.5rem
-      padding-left: 0.5rem
       background-color: $highlight-gutter.bg-color
       color: $highlight-gutter.color
       text-align: right

@@ -1,5 +1,5 @@
+--- # ---------------
 # html lang
-# ---------------
 language: en
 
 # Main menu navigation
@@ -19,8 +19,7 @@ favicon: /favicon.ico
 # ---------------
 pwa:
   enable: false
-  manifest: 
-
+  manifest:
 
 # Highlight theme
 # ---------------
@@ -29,7 +28,7 @@ highlight_theme: default
 # Nav settings
 # ---------------
 #social:
-  #icon_name: url
+#icon_name: url
 
 # Algolia search
 # ---------------
@@ -56,33 +55,32 @@ mathjax:
   enable: false
   cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-
 # Toggle fireworks (IE >= 10)
 # ---------------
 fireworks: false
 
 # Analysis
 # ---------------
-baidu_analytics: 
+baidu_analytics:
 
 google_analytics:
 
 # stylesheets loaded in the <head>
 # ---------------
 stylesheets:
-- /css/index.css
+  - /css/index.css
 
 # scripts loaded in the end of the body
 # ---------------
 scripts:
-- /js/utils.js
-- /js/fancybox.js
-- /js/sidebar.js
-- /js/copy.js
-- /js/fireworks.js
-- /js/transition.js
-- /js/scroll.js
-- /js/head.js
+  - /js/utils.js
+  - /js/fancybox.js
+  - /js/sidebar.js
+  - /js/copy.js
+  - /js/fireworks.js
+  - /js/transition.js
+  - /js/scroll.js
+  - /js/head.js
 
 # cdn for third-party library
 # ---------------
@@ -93,17 +91,17 @@ cdn:
     anime: /js/third-party/anime.min.js
     jquery: /js/third-party/jquery.min.js
     fancybox: /js/third-party/jquery.fancybox.min.js
-    velocity: /js/third-party/velocity.min.js 
-    velocity-ui: /js/third-party/velocity.ui.min.js 
+    velocity: /js/third-party/velocity.min.js
+    velocity-ui: /js/third-party/velocity.ui.min.js
 
 # Post info settings
 # ---------------
-avatar: 
+avatar:
 
-top_img: true # false or url of img 
+top_img: true # false or url of img
 
 post_meta:
-  date_type: created # created or updated 
+  date_type: created # created or updated
   categories: true
   tags: true
 
@@ -133,52 +131,52 @@ slide:
   mouseWheel: false
   transition: slide
   transitionSpeed: default
-  parallaxBackgroundImage: ''
-  parallaxBackgroundSize: ''
+  parallaxBackgroundImage: ""
+  parallaxBackgroundSize: ""
   parallaxBackgroundHorizontal: null
   parallaxBackgroundVertical: null
 
 # QR_code:
-  # - itemlist:
-  #     img:
-  #     text:
+# - itemlist:
+#     img:
+#     text:
 
 # adv:
-  # enable: false
-  # info: 
+# enable: false
+# info:
 
 # Share System
 # ---------------
 addThis:
   enable: false
-  #pubid: 
+  #pubid:
 
 # sharejs:
-  # enable: false
-  # disabled_sites: 
+# enable: false
+# disabled_sites:
 
 # Comments System
 # ---------------
 disqus:
-  enable: false 
-  #shortname: 
-  #count: 
+  enable: false
+  #shortname:
+  #count:
 
 # laibili:
-  # enable: false
-  # uid:
+# enable: false
+# uid:
 
 # gitment
-  # enable: false
-  # owner: 
-  # repo: 
-  # client_id: 
-  # client_secret: 
+# enable: false
+# owner:
+# repo:
+# client_id:
+# client_secret:
 
 # gitalk:
 #   enable: false
-#   client_id: 
-#   client_secret: 
+#   client_id:
+#   client_secret:
 #   repo:
 #   owner:
 #   admin:
@@ -204,7 +202,7 @@ since: 2013
 
 ICP:
   enable: false
-  #text: 
+  #text:
 
 # busuanzi count for PV / UV in site
 busuanzi:
@@ -222,13 +220,11 @@ busuanzi:
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
-
-
 # Sidebar Settings
 # ---------------
 #links_title: Links
 #links:
-  #Name: url
+#Name: url
 
 # Follow Me
 # follow:
